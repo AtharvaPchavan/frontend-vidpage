@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}   
+
+@media (max-width: 768px) {
+    #drp {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    }
+
+}
+
+
+#drp {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+body {
+    background-color: #d1c9c9a9;
+}
+.navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+
+.navdiv {
+    background-color: rgb(231, 83, 83);
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+.dropdown button {
+    text-decoration: none;
+    background-color: rgb(241, 96, 96);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15    px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(241, 96, 96);
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown:hover .content {
+    display: block;
+}
+
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    flex-wrap: wrap;
+    justify-content: relative;
+    padding: 2%;
+    gap: 1%;
+}
