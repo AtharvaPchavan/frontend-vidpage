@@ -1,101 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>GORE MEDIA</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>GORE MEDIA</title>
 </head>
 <body>
-        <nav class="navbar">
-            <div class="navdiv">
-                <div><img class="logo" href="#" src="" alt="logo"></div>
-                  <div id="drp"> <div  class="dropdown">
-                        <button>Food</button>
-                        <div class="content">
-                            <a href="">Apple</a>
-                            <a href="">Orange</a>
-                            <a href="">Banana</a>
-                        </div>
-                    </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="https://t.me/ghostexe" target="_blank">Contact</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-                </div> 
-            </div>
-        </nav>
-        <section class="video-gallery">
-            <div class="video-card">
-                <video controls width="300">
-                    <source src="video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <h3>Video Title</h3>
-                <p>Some description...</p>
-                <button>Like</button>
-                <button>Comment</button>
-                <button>Share</button>
-            </div>
 
-            <div class="video-card">
-                <video controls width="300">
-                    <source src="video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <h3>Video Title</h3>
-                <p>Some description...</p>
-                <button>Like</button>
-                <button>Comment</button>
-                <button>Share</button>
-            </div>
+  
+  <nav> <!-- Nav Bar -->
+    <div id="nav_container">
+      <div id="logo_container">
+        <img class="logo" src="" alt="logo" />
+      </div>
 
-            <div class="video-card">
-                <video controls width="300">
-                    <source src="video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <h3>Video Title</h3>
-                <p>Some description...</p>
-                <button>Like</button>
-                <button>Comment</button>
-                <button>Share</button>
-            </div>
-                        <div class="video-card">
-                <video controls width="300">
-                    <source src="video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <h3>Video Title</h3>
-                <p>Some description...</p>
-                <button>Like</button>
-                <button>Comment</button>
-                <button>Share</button>
-            </div>
-                        <div class="video-card">
-                <video controls width="300">
-                    <source src="video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <h3>Video Title</h3>
-                <p>Some description...</p>
-                <button>Like</button>
-                <button>Comment</button>
-                <button>Share</button>
-            </div>
-                        <div class="video-card">
-                <video controls width="300">
-                    <source src="video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <h3>Video Title</h3>
-                <p>Some description...</p>
-                <button>Like</button>
-                <button>Comment</button>
-                <button>Share</button>
-            </div>
-        </section>    
+      <div id="search_container" class="border">
+        <input id="search_bar" placeholder="Search..." />
+      </div>
+
+      <div id="right_container">
+        <button id="donate_logo" class="border">❤ Donate!</button>
+        <button id="notif_logo" class="border">🔔</button>
+        <button class="border">⬆ Upload</button>
+
+        <div id="profile_container" class="dropdown_container border">
+          <button>👤 Profile</button>
+          <div class="content">
+            <div class="link_container"><a href="">Sign Up</a></div>
+            <div class="link_container"><a href="">Log In</a></div>
+          </div>
+        </div>
+
+        <div id="menubar_container" class="border">
+          <button id="menubar_button">☰</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="sidebar_container"> <!-- Side bar-->
+    <div id="main_page_categories" class="categories">
+      <a>Most Viewed</a>
+      <a>Recently Posted</a>
+      <a>Trending</a>
+      <a>Most Liked</a>
+    </div>
+
+    <div id="categories_container" class="categories">
+      <span>Categories</span>
+      <div id="categories_link">
+        <a>Cat Videos</a>
+        <a>Tech</a>
+        <a>Politics</a>
+        <a>Gaming</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-gallery"> <!-- Main page-->
+
+    <div class="video-card">
+      <img src="watermark.gif" alt="testing" class="thumbnail" />
+      <div class="video-info">
+        <h3 class="post-title">Video Title</h3>
+        <div class="post-description">
+          <span class="post-categorie">Categorie</span><br />
+          <span class="post-views">Views 100</span>
+          <span class="post-age">HOW OLD</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <img src="watermark.gif" alt="testing" class="thumbnail" />
+      <div class="video-info">
+        <h3 class="post-title">Video Title</h3>
+        <div class="post-description">
+          <span class="post-categorie">Categorie</span><br />
+          <span class="post-views">Views 100</span>
+          <span class="post-age">HOW OLD</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <img src="watermark.gif" alt="testing" class="thumbnail" />
+      <div class="video-info">
+        <h3 class="post-title">Video Title</h3>
+        <div class="post-description">
+          <span class="post-categorie">Categorie</span><br />
+          <span class="post-views">Views 100</span>
+          <span class="post-age">HOW OLD</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <img src="watermark.gif" alt="testing" class="thumbnail" />
+      <div class="video-info">
+        <h3 class="post-title">Video Title</h3>
+        <div class="post-description">
+          <span class="post-categorie">Categorie</span><br />
+          <span class="post-views">Views 100</span>
+          <span class="post-age">HOW OLD</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <img src="watermark.gif" alt="testing" class="thumbnail" />
+      <div class="video-info">
+        <h3 class="post-title">Video Title</h3>
+        <div class="post-description">
+          <span class="post-categorie">Categorie</span><br />
+          <span class="post-views">Views 100</span>
+          <span class="post-age">HOW OLD</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <img src="watermark.gif" alt="testing" class="thumbnail" />
+      <div class="video-info">
+        <h3 class="post-title">Video Title</h3>
+        <div class="post-description">
+          <span class="post-categorie">Categorie</span><br />
+          <span class="post-views">Views 100</span>
+          <span class="post-age">HOW OLD</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <img src="watermark.gif" alt="testing" class="thumbnail" />
+      <div class="video-info">
+        <h3 class="post-title">Video Title</h3>
+        <div class="post-description">
+          <span class="post-categorie">Categorie</span><br />
+          <span class="post-views">Views 100</span>
+          <span class="post-age">HOW OLD</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <img src="watermark.gif" alt="testing" class="thumbnail" />
+      <div class="video-info">
+        <h3 class="post-title">Video Title</h3>
+        <div class="post-description">
+          <span class="post-categorie">Categorie</span><br />
+          <span class="post-views">Views 100</span>
+          <span class="post-age">HOW OLD</span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
