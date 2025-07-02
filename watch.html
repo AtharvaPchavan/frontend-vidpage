@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>watch</title>
+</head>
+<body>
+  <nav> <!-- Nav Bar -->
+    <div id="nav_container">
+      <div id="logo_container">
+        <a href="index.html">
+          <img class="logo" src="" alt="logo"/>
+        </a>
+      </div>
+      
+      <div id="search_container" class="border">
+        <input id="search_bar" placeholder="Search..." />
+      </div>
+      
+      <div id="right_container">
+        <button id="donate_logo" class="border">❤ Donate!</button>
+        <button id="notif_logo" class="border">🔔</button>
+        <button class="border">⬆ Upload</button>
+        
+        <div id="profile_container" class="dropdown_container border">
+          <button>👤 Profile</button>
+          <div class="content">
+            <div class="link_container"><a href="">Sign Up</a></div>
+            <div class="link_container"><a href="">Log In</a></div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div id="menubar_container" class="border"> 
+        <button id="menubar_button">☰</button>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="main-container">  
+    <div class="content-area">
+      <div class="video_container">
+        <div class="video_player">
+          <video controls>
+            <source src="watermark.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video_info">
+          <h2 class="post-title">Amazing Nature Documentary - Wildlife in 4K</h2>
+          <p class="post-description">Discover the breathtaking beauty of wildlife in this stunning 4K nature documentary. From majestic lions to colorful tropical birds, experience nature like never before.</p>
+          <p class="post-categorie">Nature & Wildlife</p>
+          
+          <div class="video-actions">
+            <button class="like_button">👍 Like</button>
+            <button class="dislike_button">👎 Dislike</button>
+            <button class="share_button">🔗 Share</button>
+            <button class="download_button">⬇ Download</button>
+            <button class="report_button">⚠️ Report</button>
+            <button class="save_button">💾 Save</button>
+            <button class="subscribe_button">🔔 Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="sidebar">
+      <h3>Related Videos</h3>
+      <div class="related-videos">
+        <div class="related-video">
+          <div class="related-video-thumbnail"></div>
+          <div class="related-video-info">
+            <div class="related-video-title">Ocean Depths: Exploring Marine Life</div>
+            <div class="related-video-channel">Nature Channel</div>
+            <div class="related-video-views">1.2M views • 3 days ago</div>
+          </div>
+        </div>
+        
+        <div class="related-video">
+          <div class="related-video-thumbnail"></div>
+          <div class="related-video-info">
+            <div class="related-video-title">Mountain Adventures: Hiking Through the Alps</div>
+            <div class="related-video-channel">Adventure World</div>
+            <div class="related-video-views">845K views • 1 week ago</div>
+          </div>
+        </div>
+        
+        <div class="related-video">
+          <div class="related-video-thumbnail"></div>
+          <div class="related-video-info">
+            <div class="related-video-title">Desert Safari: Life in Extreme Conditions</div>
+            <div class="related-video-channel">Wild Explorer</div>
+            <div class="related-video-views">623K views • 5 days ago</div>
+          </div>
+        </div>
+        
+        <div class="related-video">
+          <div class="related-video-thumbnail"></div>
+          <div class="related-video-info">
+            <div class="related-video-title">Rainforest Secrets: Hidden Wonders</div>
+            <div class="related-video-channel">Nature Channel</div>
+            <div class="related-video-views">2.1M views • 2 weeks ago</div>
+          </div>
+        </div>
+        
+        <div class="related-video">
+          <div class="related-video-thumbnail"></div>
+          <div class="related-video-info">
+            <div class="related-video-title">Arctic Wildlife: Surviving the Cold</div>
+            <div class="related-video-channel">Polar Documentaries</div>
+            <div class="related-video-views">934K views • 4 days ago</div>
+          </div>
+        </div>
+        
+        <div class="related-video">
+          <div class="related-video-thumbnail"></div>
+          <div class="related-video-info">
+            <div class="related-video-title">Savanna Stories: African Wildlife</div>
+            <div class="related-video-channel">Safari TV</div>
+            <div class="related-video-views">1.5M views • 1 week ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="sidebar_container"> <!-- Side bar -->
+      
+      <div class="categories nav_categories">
+        <a>❤ Donate!</a>
+        <a>🔔 Notifications</a>
+        <a >⬆ Upload</a>
+      </div>
+      
+      <hr class="nav_categories">
+      
+      <div id="main_page_categories" class="categories">
+        <a>Most Viewed</a>
+        <a>Recently Posted</a>
+        <a>Trending</a>
+        <a>Most Liked</a>
+      </div>     
+      
+      <hr>
+      
+      <div id="categories_container" class="categories">
+        <span>Categories</span>
+        <div id="categories_link">
+          <a>Cat Videos</a>
+          <a>Tech</a>
+          <a>Politics</a>
+          <a>Gaming</a>
+        </div>
+      </div>
+      
+      <hr>
+      
+    </div> 
+
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
